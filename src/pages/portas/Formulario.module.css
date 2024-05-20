@@ -1,0 +1,16 @@
+.formulario {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.link {
+    flex: 1;
+    margin: 0;
+    text-decoration: none;
+    font-size: 3rem;
+    color: #fff;
+    
+}

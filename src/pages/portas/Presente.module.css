@@ -1,0 +1,42 @@
+/* define o presente q irá aparecer na porta premiada */
+/* a classe presente engloba a tampa e corpo e o laço, fazendo com q os elemntos se movimentem dentro dele, pois a sua posição é relativa*/ 
+/*  o flex organiza por padrão os elementos em linha, o flex direction columns coloca os elementos na vertical */
+/* o align items alinha os elementos tampa e corpo pelo centro */
+.presente {
+   
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 200px;
+    
+}
+
+.tampa {
+    background-color: #7aa944;
+    width: 100px;
+    height: 25px,    
+
+}
+
+.corpo {
+    background-color: #5c7a5c;
+    width: 90px;
+    height: 60px;
+}
+
+.laco1 {
+    background-color: red;
+    position: absolute;
+    width: 15px;
+    height: 80px;
+}
+
+.laco2 {
+    background-color: red;
+    position: absolute;
+    top: 35px;
+    width: 90px;
+    height: 15px;
+
+}
